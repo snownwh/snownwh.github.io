@@ -3,9 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Momentum</title>
   </head>
   <body>
-    test
+    <!-- 날씨 / 도시-->
+    <div id="weather" class="style-weather">
+      <span></span>
+      <span></span>
+    </div>
+
+    <div id="clock" class="div-center"></div>
+    <!-- Greeting -->
+    <div id="greeting" class="div-greeting">
+      <span></span>
+    </div>
+    <form id="login-form" class="hidden">
+      <input
+        class="input"
+        required
+        maxlength="15"
+        type="text"
+        placeholder="What is your name?"
+      />
+      <input class="input-submit-login" type="submit" value="Log In" />
+    </form>
+    <div class="footer">
+      <form id="logout-form" class="hidden">
+        <input class="input-submit-logout" type="submit" value="Log Out" />
+      </form>
+    </div>
+
+    <script src="js/weather.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/greetings.js"></script>
   </body>
 </html>

@@ -1,0 +1,104 @@
+.hidden {
+  display: none;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 80%;
+}
+
+.style-weather {
+  float: right;
+  color: snow;
+}
+
+span {
+  display: block;
+}
+
+.div-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 150px;
+  color: snow;
+  font-size: 100px;
+}
+
+.div-greeting {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: snow;
+  font-size: 30px;
+}
+
+.wrapper {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0px 2px 1px 0px #ddd;
+  box-sizing: border-box;
+  height: 300px;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+  position: absolute;
+  top: 50%;
+  width: 300px;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: snow;
+  box-sizing: border-box;
+  font-family: "Arvo";
+  font-size: 18px;
+  height: 50px;
+  left: 50%;
+  margin: -25px 0 0 -100px;
+  padding: 10px 0px;
+  position: relative;
+  top: 50%;
+  width: 200px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #aaa;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: darkgrey;
+}
+
+.input-submit-login {
+  background-color: transparent;
+  color: #aaa;
+  box-sizing: border-box;
+  margin-left: 400px;
+}
+
+.input-submit-logout {
+  background-color: transparent;
+  color: #aaa;
+  box-sizing: border-box;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
