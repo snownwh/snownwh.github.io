@@ -9,8 +9,8 @@
   <body>
     <!-- 날씨 / 도시-->
     <div id="weather" class="style-weather">
-      <span></span>
-      <span></span>
+      <span class="span"></span>
+      <span class="span"></span>
     </div>
 
     <div id="clock" class="div-center"></div>
@@ -28,6 +28,19 @@
       />
       <input class="input-submit-login" type="submit" value="Log In" />
     </form>
+    <div id="todo">
+      <form id="todo-form">
+        <input
+          class="input-todo"
+          type="text"
+          placeholder="Write a To Do and Press Enter"
+          required
+        />
+      </form>
+      <div class="todo">
+        <ul id="todo-list"></ul>
+      </div>
+    </div>
     <div class="footer">
       <form id="logout-form" class="hidden">
         <input class="input-submit-logout" type="submit" value="Log Out" />
@@ -38,5 +51,6 @@
     <script src="js/background.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/greetings.js"></script>
+    <script src="js/todo.js"></script>
   </body>
 </html>
